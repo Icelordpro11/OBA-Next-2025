@@ -91,15 +91,6 @@ Polycam was used to scan the library floor and create a 3D representation of the
 <p align="center">
   <img src="Docs/ShowcaseTesting.png" alt="Nexi project showcase" width="700">
 </p>
-
-## My Contribution
-
-I worked on the AI interaction system and its Unity integration, including the multi-agent conversation flow, speech input and output, OpenAI communication, and mixed-reality spatial features.
-
-## Security Note
-
-API access may require valid credentials and service availability. **Never commit API keys or other secrets to a public repository.**
-
 ---
 
 <div align="center">
