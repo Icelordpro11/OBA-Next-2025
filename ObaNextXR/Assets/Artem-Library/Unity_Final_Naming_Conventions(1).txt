@@ -1,0 +1,189 @@
+
+Comprehensive Unity Coding Naming Conventions and Guidelines
+------------------------------------------------------------
+
+1. **Class Naming Conventions:**
+    - Classes representing a "System," "Manager," or "Controller" should be named accordingly:
+        - For Systems: `ClassName_System`
+        - For Managers: `ClassName_Manager`
+        - For Controllers: `ClassName_Controller`
+    - Use PascalCase for class names.
+    - Prefix abstract base classes with `Base` or `Abstract` (e.g., `BaseCharacter_Controller`).
+    - Avoid naming conflicts by using namespaces for related classes.
+
+2. **Method Naming Conventions:**
+    - Use PascalCase for method names.
+    - Abbreviate method names longer than three words using underscores (e.g., `CalculatePlayer_Health`).
+    - Handlers and Helpers:
+        - Use an underscore followed by `Handler` or `Helper` (e.g., `Event_Handler`, `Data_Helper`).
+    - Methods should perform a single task. Split methods if they become too complex.
+    - Group related methods in regions:
+        - Example:
+
+        ```csharp
+        #region Player Movement Methods
+        void MovePlayer() { }
+        void Jump() { }
+        #endregion
+        ```
+
+    - Ensure that methods have clear and concise names that describe their functionality.
+
+3. **Static Methods, Handlers, and Helpers:**
+    - Place static methods, handlers, and helpers at the bottom of the script.
+    - Group them in their own region for better organization.
+    - Avoid excessive use of static methods to maintain flexibility and testability.
+
+4. **Variable Naming Conventions:**
+    - Public and [SerializeField] variables:
+        - Use camelCase without underscores.
+        - Place them at the top of the script.
+        - Consider using structs for related variables.
+        - Example: `public int playerHealth;` or `[SerializeField] private float movementSpeed;`
+    - Private variables:
+        - Use camelCase with a leading underscore (e.g., `_playerHealth`, `_movementSpeed`).
+    - Constants:
+        - Use ALL_CAPS with underscores (e.g., `MAX_HEALTH`, `DEFAULT_SPEED`).
+    - Organize variables in this order:
+        1. Public/Serialized Variables
+        2. Private Variables
+        3. Component References
+        4. Properties (Getters/Setters)
+    - Boolean Naming Conventions:
+        - Name boolean variables to imply true/false conditions (e.g., `isActive`, `hasStarted`).
+    - Use of Enums:
+        - Use enums for variables that represent a predefined set of values.
+
+5. **Code Formatting:**
+    - **if Statements:**
+        - If an `if` statement handles only one method, omit brackets `{}`.
+        - Use brackets `{}` for multiple methods.
+        - Example:
+
+        ```csharp
+        if (isGrounded)
+            Jump();
+        else
+        {
+            Slide();
+            Run();
+        }
+        ```
+
+    - Use `>=` where applicable for simplicity.
+    - Avoid deep nesting. Refactor to simplify complex conditions.
+    - **Use of `var`:**
+        - Use `var` for every reference.
+        - Avoid `Reference` when the type isn't immediately clear.
+
+6. **Comments and Documentation:**
+    - Write clear, concise comments.
+    - Use XML comments (`///`) for methods, properties, and classes.
+    - Avoid over-commenting. Strive for self-explanatory code.
+    - Include TODOs and FIXMEs for tasks that require further attention.
+
+7. **Best Practices for Class and Method Organization:**
+    - Each class should have a single responsibility, following SOLID principles.
+    - Method implementation should consider the Flyweight pattern where applicable.
+    - Organize methods by their access modifier and relevance:
+        - Public methods first, followed by protected, internal, and private.
+    - Use regions to group related methods and properties:
+        - Example:
+
+        ```csharp
+        #region Unity Callbacks
+        void Start() { }
+        void Update() { }
+        #endregion
+        ```
+
+    - Avoid large monolithic classes. Split functionality into smaller, manageable classes.
+
+8. **Structuring the Script:**
+    - Start with using directives (`using UnityEngine;` etc.).
+    - Declare the namespace if applicable.
+    - List class variables in the order of:
+        1. Constants
+        2. Public variables and serialized fields
+        3. Private variables
+        4. Component references
+        5. Properties (Getters/Setters)
+    - List methods in the following order:
+        1. Constructors
+        2. Unity lifecycle methods (`Start`, `Update`, etc.)
+        3. Public methods
+        4. Protected methods
+        5. Private methods
+        6. Static methods
+    - End the script with any nested classes, structs, or enums.
+
+9. **Error Handling and Logging:**
+    - Use `try-catch` blocks for potentially error-prone code.
+    - Log important events and errors with `Debug.Log`, `Debug.LogWarning`, `Print`, and `Debug.LogError`.
+    - Example:
+
+    ```csharp
+    try
+    {
+        // Code that might throw an exception
+    }
+    catch (Exception ex)
+    {
+        Debug.LogError($"Error: {ex.Message}");
+    }
+    ```
+
+    - Avoid excessive error logging. Focus on critical issues.
+
+10. **Use of LINQ and Collections:**
+    - Use LINQ for simple and readable queries.
+    - Avoid complex LINQ queries that reduce readability.
+    - Favor readability over compactness in collection manipulations.
+
+11. **Performance Optimization:**
+    - Avoid excessive use of `Update()` method. Use events or coroutines when possible.
+    - Cache component lookups (e.g., `GetComponent`) to reduce performance overhead.
+    - Use object pooling for frequently instantiated objects.
+    - Minimize garbage collection by reusing objects and avoiding unnecessary allocations.
+    - Use `FixedUpdate()` for physics-related calculations.
+
+12. **Asset Management:**
+    - Use meaningful names for assets, prefabs, and scenes.
+    - Organize assets into folders based on type (e.g., `Scripts`, `Prefabs`, `Materials`).
+    - Avoid placing assets in the root folder. Always use subfolders.
+    - Maintain a consistent naming convention for assets:
+        - Prefabs: Use the prefix `Pref_` (e.g., `Pref_PlayerModel`, `Pref_EnemyController`).
+        - ScriptableObjects: Use the prefix `SO_` (e.g., `SO_CharacterStats`, `SO_GameSettings`).
+        - Scenes: Use the suffix `_Scene` (e.g., `MainMenu_Scene`, `Level1_Scene`).
+
+13. **Testing and Debugging:**
+    - Debug performance issues with the Unity Profiler.
+    - Use breakpoints and the Debugger for step-through debugging.
+
+14. **Scene Organization:**
+    - Organize objects in the hierarchy with meaningful names.
+    - Use Splitters Tool to divide the GameObjects.
+    - Keep the scene hierarchy flat where possible to improve readability.
+    - Managers, Controllers, and Systems need to be specified by using `-Manager`, `-Controllers`, and `-Systems`.
+    - Each scene should be organized with a good hierarchy splitter to maintain clarity.
+
+15. **Scriptable Objects and Data Management:**
+    - Use ScriptableObjects for data that needs to persist across scenes.
+    - Keep ScriptableObjects modular and reusable.
+    - Avoid using MonoBehaviours for data storage.
+
+16. **Attributes:**
+    - Use `Expandable` attribute for class variables.
+    - Use `ButtonConverter` attribute for button variables.
+    - Use `Max` and `Min` attributes for variables with maximum and minimum values.
+    - Use `HorizontalLine` to divide the script.
+    - Use [NaughtyAttributes](https://dbrizov.github.io/na-docs/attributes/validator_attributes/index.html) for extra attributes.
+
+17. **Tools:**
+    - **CTRL+G**: Opens a window that organizes scripts by the names of the class, so every System, Manager, Controller, ScriptableObject, Values, and DOTween script is placed in a specific folder.
+    - **Pool Object**: Add `PoolManager` in the scene and create a Scriptable Object Pool where you can specify the tag, min and max limits, and prefab.
+    - **Right-click**: Create a new script with a Scriptable template.
+    - **FSM**: Finite State Machine is included in the package.
+    - **Event Bus System**: Included in the package.
+    
+    Remember to apply Singleton, SOLID, and Flyweight patterns where applicable.

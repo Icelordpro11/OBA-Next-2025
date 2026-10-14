@@ -1,0 +1,22 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 49edf41e1a69447c8f9932602a0eba41, type: 3}
+  m_Name: NexiDialogue
+  m_EditorClassIdentifier: 
+  responseBookFound: Kijk, ik heb leuke boekjes gevonden klik op een boekje om te
+    zien waar het is!
+  aanwezigSentence: Het boek is beschikbaar in {item.shelfmark}.
+  aanwezigUnknownShelfSentence: ' Dit boek is aanwezig en bevindt zich op {item.subloc}. '
+  nietAaanwezigOpuisteLocatie: Dit boek is te vinden in de bibliotheek bij {fallback.locationName}
+  uitgeleendSentence: 'Het boek is momenteel uitgeleend. '
+  nietBeschikbaarSentence: 'Het boek is niet beschikbaar. '
+  onbekendeStatusSentence: 'De status van het boek is: {item.status}.'

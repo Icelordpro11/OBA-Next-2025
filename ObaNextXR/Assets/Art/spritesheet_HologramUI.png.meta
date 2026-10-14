@@ -1,0 +1,433 @@
+fileFormatVersion: 2
+guid: 7deece211bd866644aa8d093be583f14
+TextureImporter:
+  internalIDToNameTable: []
+  externalObjects: {}
+  serializedVersion: 13
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+    flipGreenChannel: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  vTOnly: 0
+  ignoreMipmapLimit: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 1
+    aniso: 1
+    mipBias: 0
+    wrapU: 1
+    wrapV: 1
+    wrapW: 0
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 100
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  flipbookRows: 1
+  flipbookColumns: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  ignorePngGamma: 0
+  applyGammaDecoding: 0
+  swizzle: 50462976
+  cookieLightType: 0
+  platformSettings:
+  - serializedVersion: 4
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: 4
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: Android
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: spritesheet_HologramUI_6
+      rect:
+        serializedVersion: 2
+        x: 40
+        y: 1222
+        width: 579
+        height: 898
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: fd74416e70ae3cf499aed7fc53fd3994
+      internalID: 1288583948
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: spritesheet_HologramUI_10
+      rect:
+        serializedVersion: 2
+        x: 674
+        y: 1215
+        width: 570
+        height: 913
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 15efc56321fe8314e824c4777f4fde76
+      internalID: -496729442
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: spritesheet_HologramUI_12
+      rect:
+        serializedVersion: 2
+        x: 1294
+        y: 1218
+        width: 585
+        height: 910
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9841d651cf68c0b4180690d142817e6e
+      internalID: 323957824
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: spritesheet_HologramUI_18
+      rect:
+        serializedVersion: 2
+        x: 1942
+        y: 1202
+        width: 596
+        height: 769
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 37f5e184637c0f7419892ee73b95f3e9
+      internalID: -724756609
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: spritesheet_HologramUI_33
+      rect:
+        serializedVersion: 2
+        x: 40
+        y: 235
+        width: 572
+        height: 925
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 004e16e6ccbde0247bcddc5c8e3793ae
+      internalID: -1943961465
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: spritesheet_HologramUI_34
+      rect:
+        serializedVersion: 2
+        x: 674
+        y: 229
+        width: 568
+        height: 901
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f6cfed2466aabb54e83727caab8a275e
+      internalID: -1020288135
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: spritesheet_HologramUI_35
+      rect:
+        serializedVersion: 2
+        x: 1301
+        y: 230
+        width: 578
+        height: 903
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 256e2f60928aea44f970f38b61b42078
+      internalID: -394724402
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: spritesheet_HologramUI_36
+      rect:
+        serializedVersion: 2
+        x: 2341
+        y: 948
+        width: 157
+        height: 146
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 99afc42f592e5cd499c48358557f4105
+      internalID: 1734741920
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: spritesheet_HologramUI_37
+      rect:
+        serializedVersion: 2
+        x: 2952
+        y: 960
+        width: 181
+        height: 126
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6028ae522202a1a45ac55f768d61c44f
+      internalID: 129018973
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: spritesheet_HologramUI_38
+      rect:
+        serializedVersion: 2
+        x: 3563
+        y: 908
+        width: 190
+        height: 218
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: edd66bd3d53e70645b13ec49001ecea6
+      internalID: 1180503906
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: spritesheet_HologramUI_0
+      rect:
+        serializedVersion: 2
+        x: 2577
+        y: 1205
+        width: 596
+        height: 769
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5555d3b32b449d648b0849fbb6824c61
+      internalID: -815096104
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: spritesheet_HologramUI_1
+      rect:
+        serializedVersion: 2
+        x: 3212
+        y: 1208
+        width: 596
+        height: 769
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0bec638051efc1540b099df190697fc6
+      internalID: -1566647852
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    customData: 
+    physicsShape: []
+    bones: []
+    spriteID: 4cfa22bfd41af18449dc415d9f399a63
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+    spriteCustomMetadata:
+      entries: []
+    nameFileIdTable:
+      spritesheet_HologramUI_0: -815096104
+      spritesheet_HologramUI_1: -1566647852
+      spritesheet_HologramUI_10: -496729442
+      spritesheet_HologramUI_11: 409266182
+      spritesheet_HologramUI_12: 323957824
+      spritesheet_HologramUI_13: -1333245073
+      spritesheet_HologramUI_14: -97653854
+      spritesheet_HologramUI_15: -1845950113
+      spritesheet_HologramUI_16: -1281897277
+      spritesheet_HologramUI_17: -1649478303
+      spritesheet_HologramUI_18: -724756609
+      spritesheet_HologramUI_19: -1047095721
+      spritesheet_HologramUI_2: -1201275230
+      spritesheet_HologramUI_20: 466423193
+      spritesheet_HologramUI_21: -313409199
+      spritesheet_HologramUI_22: -955090693
+      spritesheet_HologramUI_23: -182919112
+      spritesheet_HologramUI_24: -1921130118
+      spritesheet_HologramUI_25: 925001338
+      spritesheet_HologramUI_26: -438277474
+      spritesheet_HologramUI_27: -88806470
+      spritesheet_HologramUI_28: 1726983396
+      spritesheet_HologramUI_29: -384526497
+      spritesheet_HologramUI_3: -1838615501
+      spritesheet_HologramUI_30: 2060385759
+      spritesheet_HologramUI_31: 99467941
+      spritesheet_HologramUI_32: 1663336628
+      spritesheet_HologramUI_33: -1943961465
+      spritesheet_HologramUI_34: -1020288135
+      spritesheet_HologramUI_35: -394724402
+      spritesheet_HologramUI_36: 1734741920
+      spritesheet_HologramUI_37: 129018973
+      spritesheet_HologramUI_38: 1180503906
+      spritesheet_HologramUI_4: -1273969769
+      spritesheet_HologramUI_5: 9790361
+      spritesheet_HologramUI_6: 1288583948
+      spritesheet_HologramUI_7: 49113471
+      spritesheet_HologramUI_8: -1460811497
+      spritesheet_HologramUI_9: -1879320993
+  mipmapLimitGroupName: 
+  pSDRemoveMatte: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

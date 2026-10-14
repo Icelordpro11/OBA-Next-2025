@@ -1,0 +1,16 @@
+ using UnityEngine;
+
+ 
+[CreateAssetMenu(fileName = " ", menuName = " ", order = 0)]
+public class #SCRIPTNAME# :ScriptableObject
+{
+    #region Public Variables
+
+    #endregion
+    
+    #region Private Variables
+    
+    #endregion
+  
+}
+

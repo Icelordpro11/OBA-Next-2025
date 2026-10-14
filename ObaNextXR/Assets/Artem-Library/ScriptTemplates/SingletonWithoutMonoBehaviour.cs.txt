@@ -1,0 +1,13 @@
+
+public class #SCRIPTNAME# : Singleton<#SCRIPTNAME#>
+{
+    #region Public Variables
+
+    #endregion
+    
+    #region Private Variables
+    
+    #endregion
+  
+}
+

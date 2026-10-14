@@ -1,0 +1,151 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!1 &290499082317449030
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 4055197609312251792}
+  - component: {fileID: 2111725209777888132}
+  m_Layer: 0
+  m_Name: Saturn - Controller
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &4055197609312251792
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 290499082317449030}
+  serializedVersion: 2
+  m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
+  m_LocalPosition: {x: -0.48046312, y: 1.7192576, z: -1.8489203}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children:
+  - {fileID: 5311178062680885465}
+  m_Father: {fileID: 0}
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &2111725209777888132
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 290499082317449030}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: e34be738747145a699af7d7a38754d61, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  detectionShape: 0
+  detectionRadius: 0.71
+  detectionCubeSize: {x: 0.5, y: 0.5, z: 0.5}
+  enableTimer: 0
+  enterDelay: 2.75
+  exitDelay: 0.5
+  onHandEnterEvent:
+    m_PersistentCalls:
+      m_Calls:
+      - m_Target: {fileID: 1481403998589003386}
+        m_TargetAssemblyTypeName: UnityEngine.Animator, UnityEngine
+        m_MethodName: SetTrigger
+        m_Mode: 5
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: Play
+          m_BoolArgument: 0
+        m_CallState: 2
+  onHandExitEvent:
+    m_PersistentCalls:
+      m_Calls:
+      - m_Target: {fileID: 1481403998589003386}
+        m_TargetAssemblyTypeName: UnityEngine.Animator, UnityEngine
+        m_MethodName: SetTrigger
+        m_Mode: 5
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: Stop
+          m_BoolArgument: 0
+        m_CallState: 2
+  <HandInside>k__BackingField: 0
+--- !u!1001 &2776720443104508480
+PrefabInstance:
+  m_ObjectHideFlags: 0
+  serializedVersion: 2
+  m_Modification:
+    serializedVersion: 3
+    m_TransformParent: {fileID: 4055197609312251792}
+    m_Modifications:
+    - target: {fileID: 7239022286929291299, guid: b9b0099bed3d5dd40b3f6e38ed0f2852, type: 3}
+      propertyPath: m_Name
+      value: Saturn - 3d model
+      objectReference: {fileID: 0}
+    - target: {fileID: 8015840843002688153, guid: b9b0099bed3d5dd40b3f6e38ed0f2852, type: 3}
+      propertyPath: m_LocalPosition.x
+      value: 0.011999965
+      objectReference: {fileID: 0}
+    - target: {fileID: 8015840843002688153, guid: b9b0099bed3d5dd40b3f6e38ed0f2852, type: 3}
+      propertyPath: m_LocalPosition.y
+      value: -0.17700005
+      objectReference: {fileID: 0}
+    - target: {fileID: 8015840843002688153, guid: b9b0099bed3d5dd40b3f6e38ed0f2852, type: 3}
+      propertyPath: m_LocalPosition.z
+      value: 0.007000208
+      objectReference: {fileID: 0}
+    - target: {fileID: 8015840843002688153, guid: b9b0099bed3d5dd40b3f6e38ed0f2852, type: 3}
+      propertyPath: m_LocalRotation.w
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 8015840843002688153, guid: b9b0099bed3d5dd40b3f6e38ed0f2852, type: 3}
+      propertyPath: m_LocalRotation.x
+      value: -0
+      objectReference: {fileID: 0}
+    - target: {fileID: 8015840843002688153, guid: b9b0099bed3d5dd40b3f6e38ed0f2852, type: 3}
+      propertyPath: m_LocalRotation.y
+      value: -0
+      objectReference: {fileID: 0}
+    - target: {fileID: 8015840843002688153, guid: b9b0099bed3d5dd40b3f6e38ed0f2852, type: 3}
+      propertyPath: m_LocalRotation.z
+      value: -0
+      objectReference: {fileID: 0}
+    - target: {fileID: 8015840843002688153, guid: b9b0099bed3d5dd40b3f6e38ed0f2852, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 8015840843002688153, guid: b9b0099bed3d5dd40b3f6e38ed0f2852, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 8015840843002688153, guid: b9b0099bed3d5dd40b3f6e38ed0f2852, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.z
+      value: 0
+      objectReference: {fileID: 0}
+    m_RemovedComponents: []
+    m_RemovedGameObjects: []
+    m_AddedGameObjects: []
+    m_AddedComponents: []
+  m_SourcePrefab: {fileID: 100100000, guid: b9b0099bed3d5dd40b3f6e38ed0f2852, type: 3}
+--- !u!95 &1481403998589003386 stripped
+Animator:
+  m_CorrespondingSourceObject: {fileID: 3605102495706291258, guid: b9b0099bed3d5dd40b3f6e38ed0f2852, type: 3}
+  m_PrefabInstance: {fileID: 2776720443104508480}
+  m_PrefabAsset: {fileID: 0}
+--- !u!4 &5311178062680885465 stripped
+Transform:
+  m_CorrespondingSourceObject: {fileID: 8015840843002688153, guid: b9b0099bed3d5dd40b3f6e38ed0f2852, type: 3}
+  m_PrefabInstance: {fileID: 2776720443104508480}
+  m_PrefabAsset: {fileID: 0}

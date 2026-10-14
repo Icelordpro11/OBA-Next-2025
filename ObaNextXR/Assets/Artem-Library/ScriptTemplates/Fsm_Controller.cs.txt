@@ -1,0 +1,41 @@
+using UnityEngine;
+using System.Collections.Generic;
+using _Scripts.FSM_Scripts;
+
+[RequireComponent(typeof(#SCRIPTNAME#))]
+public class #SCRIPTNAME#: MonoBehaviour
+{ 
+   [Header(" State Values")]
+  [SerializeField] private List<#SCRIPTNAME#_State_Values> _stateValuesList;
+ 
+      private Fsm _fsm;
+        
+      private void OnValidate()
+      {
+          _fsm ??= new Fsm();
+      }
+      private void Awake() => Initialize_FSM();
+         
+      private void Initialize_FSM()
+      {
+          // Add State's
+          /*_fsm.AddState(new Name of a State(_fsm));*/   
+             
+         // Define Start State   
+         /* _fsm.ChangeState<Start State>();*/
+       }
+         
+     public void Update() => _fsm.Update();
+     public void FixedUpdate() => _fsm.FixedUpdate();
+    #NOTRIM#
+}
+
+[System.Serializable]
+public class #SCRIPTNAME#_State_Values
+{
+     public List<float> _listFloat;
+     public List<int> _ListInt;
+     public List<Transform> _listTrans;
+
+}
+

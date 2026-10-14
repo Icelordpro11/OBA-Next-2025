@@ -1,0 +1,31 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: b58889dfe711edc4294a5c8987bf7e41, type: 3}
+  m_Name: Standard-Splitters
+  m_EditorClassIdentifier: 
+  _customSplitters:
+  - <SplitterName>k__BackingField: Setup
+    SplitterTexture: {fileID: 2800000, guid: 90ccec3623173774e83ae147dec91467, type: 3}
+  - <SplitterName>k__BackingField: Managers
+    SplitterTexture: {fileID: 2800000, guid: 037609eef6d56564ebb3c16236e6c31d, type: 3}
+  - <SplitterName>k__BackingField: Systems
+    SplitterTexture: {fileID: 2800000, guid: a5ceb283cbea61d48ab24825b080e793, type: 3}
+  - <SplitterName>k__BackingField: Audio/SFX
+    SplitterTexture: {fileID: 2800000, guid: 6d0ece1e3b8435f4cb263cf337fe43df, type: 3}
+  - <SplitterName>k__BackingField: UI
+    SplitterTexture: {fileID: 2800000, guid: 1fbb7088a6edfea44a30d588b69761d8, type: 3}
+  - <SplitterName>k__BackingField: Player/User
+    SplitterTexture: {fileID: 2800000, guid: feba8fb2ab9469f4fb8e306c33611894, type: 3}
+  - <SplitterName>k__BackingField: Other
+    SplitterTexture: {fileID: 2800000, guid: bb111d6c045185f4ba87d8122f0895aa, type: 3}
+  - <SplitterName>k__BackingField: Enviroment
+    SplitterTexture: {fileID: 2800000, guid: 80bd839bf993eb84db15cb490f1636f1, type: 3}

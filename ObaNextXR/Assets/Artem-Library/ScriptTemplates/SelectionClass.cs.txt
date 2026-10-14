@@ -1,0 +1,8 @@
+using UnityEngine;
+
+[SelectionBase]
+public class #SCRIPTNAME#
+{ 
+    #NOTRIM#
+}
+

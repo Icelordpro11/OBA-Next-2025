@@ -1,0 +1,19 @@
+
+using UnityEditor;
+using UnityEngine;
+
+public class #SCRIPTNAME# : EditorWindow
+{
+   [MenuItem("$MENUITEM$/$MENUITEMCOMMAND$")]
+     private static void ShowWindow()
+      {
+       var window = GetWindow<#SCRIPTNAME#>();
+       window.titleContent = new UnityEngine.GUIContent("$TITLE$");
+       window.Show();
+      }
+
+     private void CreateGUI()
+      {
+         #NOTRIM#
+      }
+}

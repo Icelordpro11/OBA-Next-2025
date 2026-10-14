@@ -1,0 +1,63 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ae4015a5c70544cfb096d45dac02e7ba, type: 3}
+  m_Name: Folders
+  m_EditorClassIdentifier: 
+  folders:
+  - folderName: _Scripts
+    subfolders:
+    - Managers-Scripts
+    - Systems-Scripts
+    - Controllers-Scripts
+    - Ui-Scripts
+    - Values-Scripts
+    - Helpers-Scripts
+    - Interface-Scripts
+    - Scriptable Object-Scripts
+  - folderName: Art
+    subfolders:
+    - 3D-Models
+    - 2D-Models
+    - Sprites
+    - Materials
+    - Textures
+    - Shaders
+  - folderName: Audio
+    subfolders:
+    - SFX-Audio
+    - Music-Audio
+  - folderName: Animations
+    subfolders:
+    - Player-Animations
+    - Enemies-Animations
+    - Enviroment-Animations
+    - Ui-Animations
+  - folderName: Scenes
+    subfolders:
+    - Main-Scenes
+    - GamePlay-Scenes
+    - Test-Scenes
+  - folderName: Project-Settings
+    subfolders:
+    - Settings
+    - Lighting
+    - PostProsessing-Data
+    - URP-Data
+    - HDRP-Data
+  - folderName: Project-Data
+    subfolders:
+    - Prefab-Data
+    - ScriptableObject-Data
+  - folderName: Resources
+    subfolders: []
+  - folderName: Plugins-Assets
+    subfolders: []

@@ -1,0 +1,15 @@
+ using _Scripts.FSM_Scripts;
+public class #SCRIPTNAME#: FsmsState, IFixedUpdate
+{ 
+     private readonly Fsm _fsm;
+    public #SCRIPTNAME#(Fsm fsm)
+    { 
+        _fsm = fsm;      
+    }
+
+    public void FixedUpdate()
+    {
+       
+    }
+}
+

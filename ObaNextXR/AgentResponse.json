@@ -1,0 +1,13 @@
+{
+  "searches": [
+    {
+      "q": "draken",
+      "collection": "obadbx",
+      "query_by": "embedding, titel",
+      "vector_query": "embedding:([], alpha: 0.4)",
+      "filter_by": "indeling:=fictie tot 9 jaar||indeling:=fictie 9 tot 12 jaar||indeling:=fictie vanaf 12 jaar||indeling:=info tot 9 jaar||indeling:=info vanaf 9 jaar",
+      "STATUS": "KLAAR",
+      "prefix": false
+    }
+  ]
+}

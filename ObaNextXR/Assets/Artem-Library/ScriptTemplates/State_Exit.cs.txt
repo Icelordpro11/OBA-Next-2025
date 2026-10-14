@@ -1,0 +1,16 @@
+ using _Scripts.FSM_Scripts;
+public class #SCRIPTNAME#: FsmsState, IExitState
+{ 
+     private readonly Fsm _fsm;
+
+    public #SCRIPTNAME# (Fsm fsm)
+    { 
+          _fsm = fsm;      
+    }
+
+    public void Exit()
+    {
+       
+    }
+}
+

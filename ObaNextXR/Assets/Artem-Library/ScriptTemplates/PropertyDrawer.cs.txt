@@ -1,0 +1,12 @@
+using UnityEditor;
+using UnityEngine.UIElements;
+
+     [CustomPropertyDrawer(typeof(#SCRIPTNAME#))]
+    public class #SCRIPTNAME# : PropertyDrawer
+    {
+        public override VisualElement CreatePropertyGUI(SerializedProperty property)
+        {
+            
+            return base.CreatePropertyGUI(property);
+        }
+    }

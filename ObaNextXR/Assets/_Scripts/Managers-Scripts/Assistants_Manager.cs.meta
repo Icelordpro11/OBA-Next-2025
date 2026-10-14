@@ -1,0 +1,16 @@
+fileFormatVersion: 2
+guid: 935321e1c24445518d706fd9d110c0db
+MonoImporter:
+  externalObjects: {}
+  serializedVersion: 2
+  defaultReferences:
+  - firstAgent: {fileID: 11400000, guid: 3a538d49fa277bc418d40790d2fdcac1, type: 2}
+  - searchQueryAgent: {fileID: 11400000, guid: 3b51243b9a378934a8da80d6759effaf, type: 2}
+  - vergelijkingsQueryAgent: {fileID: 11400000, guid: 2dbba7706fd6b8f48a7c1e7e7a7c518e, type: 2}
+  - typeSense: {fileID: 11400000, guid: 07cac4cc57f7e344995353951f4a8c4b, type: 2}
+  - logger: {instanceID: 0}
+  executionOrder: 0
+  icon: {instanceID: 0}
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

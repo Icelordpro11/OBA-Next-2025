@@ -1,0 +1,7 @@
+using UnityEngine;
+
+public class #SCRIPTNAME#<T>: MonoBehaviour where T : MonoBehaviour
+{ 
+    #NOTRIM#
+}
+

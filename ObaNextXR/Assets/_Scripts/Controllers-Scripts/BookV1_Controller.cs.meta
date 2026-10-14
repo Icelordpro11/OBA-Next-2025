@@ -1,0 +1,19 @@
+fileFormatVersion: 2
+guid: 34d3bffcdc044a34bafafcbab8883ec5
+MonoImporter:
+  externalObjects: {}
+  serializedVersion: 2
+  defaultReferences:
+  - bookNotValidImage: {instanceID: 0}
+  - notValidText: {instanceID: 0}
+  - backgroundImage: {instanceID: 0}
+  - statusImage: {instanceID: 0}
+  - aanwezigFeedbackValues: {fileID: 11400000, guid: 2326d51a31a0f2a4484cc8cf2091a370, type: 2}
+  - uitgeleendFeedbackValues: {fileID: 11400000, guid: c8f82cb24932f794182194a12925d002, type: 2}
+  - locatieFeedbackValues: {fileID: 11400000, guid: 8196da503f5d8b04cb9133039f14b58e, type: 2}
+  - obaAgent: {fileID: 11400000, guid: 8f14acac163c62a41bfeec4b1cead6e0, type: 2}
+  executionOrder: 0
+  icon: {instanceID: 0}
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

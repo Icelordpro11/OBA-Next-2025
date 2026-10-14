@@ -1,0 +1,46 @@
+using UnityEngine;
+
+  
+public class #SCRIPTNAME# : DontDestroyOnLoad<#SCRIPTNAME#>
+{
+    #region Public Variables
+
+    #endregion
+    #region Private Variables
+    
+    #endregion
+    
+     #region Private Components
+            
+      #endregion
+
+    void Awake()
+    {
+        #NOTRIM#
+    }
+#region Awake Methods
+            
+#endregion
+    void Start()
+    {
+        #NOTRIM#
+    }
+ #region Start Methods
+            
+  #endregion
+    void Update()
+    {
+        #NOTRIM#
+    }
+ #region Update Methods
+            
+  #endregion
+    void FixedUpdate()
+    {
+        #NOTRIM#
+    }
+ #region FixedUpdates Methods
+            
+  #endregion
+   
+}
