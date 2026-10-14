@@ -86,11 +86,19 @@ Polycam was used to scan the library floor and create a 3D representation of the
   <img src="Docs/meta-xr-sdk.png" alt="Meta XR SDK" width="600">
 </p>
 
-## Additional Screenshots
+## Other Project Media
 
-<p align="center">
-  <img src="Docs/ShowcaseTesting.png" alt="Nexi project showcase" width="700">
-</p>
+Additional project media is available in the `Docs` folder:
+
+- [Nexi media](Docs/Nexi-Media.mp4)
+- [Nexi popup demonstration](Docs/Nexi-Popup.mp4)
+- [Showcase AI](Docs/Showcase-AI.mp4)
+- [Showcase testing](Docs/ShowcaseTesting.png)
+- [Hand interaction](Docs/hand-interaction.mp4)
+- [Meta XR SDK image](Docs/meta-xr-sdk.png)
+- [OBA Next MR image](Docs/obanext.png)
+- [OBA Next MR video](Docs/obanext.mp4)
+
 ---
 
 <div align="center">
